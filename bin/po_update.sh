@@ -2,7 +2,7 @@
 #
 # ./bin/po_update.sh
 #
-S
+
 ME=$(basename $0)
 MD=$(cd $(dirname $0); pwd)
 
@@ -25,5 +25,5 @@ rm messages.po
 cd ..
 echo Working in $(pwd)
 mkdir -p locale/$lang/LC_MESSAGES
-msgfmt -v po/$po -o locale/$lang/LC_MESSAGES/eclipse-blackjackshellac.mo
+msgfmt -v po/$po -o locale/$lang/LC_MESSAGES/eclipse-60-blackjackshellac.mo
 

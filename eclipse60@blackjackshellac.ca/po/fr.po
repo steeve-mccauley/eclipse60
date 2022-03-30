@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eclipse-60-blackjackshellac\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 09:31-0400\n"
+"POT-Creation-Date: 2022-03-30 14:13-0400\n"
 "PO-Revision-Date: 2021-05-19 09:31-0400\n"
 "Last-Translator: Steeve McCauley <steeve.mccauley60@gmail.com>\n"
 "Language-Team: French <steeve.mccauley60@gmail.com>\n"
@@ -17,6 +17,96 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "X-Generator: Gtranslator 40.0\n"
+
+#: ../dialog.js:39
+msgid "Decrypt"
+msgstr "Décrypter"
+
+#: ../dialog.js:43 ../dialog.js:202 ../dialog.js:646 ../dialog.js:770
+#: ../ui/kb_shortcuts_dialog3x.ui:72 ../prefs.js:514
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../dialog.js:71 ../dialog.js:250 ../dialog.js:529
+msgid "Passphrase"
+msgstr "Phrase secrète"
+
+#: ../dialog.js:85 ../dialog.js:258 ../dialog.js:295 ../dialog.js:500
+#: ../dialog.js:537 ../dialog.js:574
+msgid "Cached password cleared"
+msgstr "Mot de passe enregistré effacé"
+
+#: ../dialog.js:98
+msgid "Enter the decryption passphrase"
+msgstr "Entrez la phrase secrète de déchiffrement"
+
+#: ../dialog.js:145 ../dialog.js:388 ../dialog.js:697
+msgid "Passphrase too short"
+msgstr "Phrase secrète trop courte"
+
+#: ../dialog.js:164
+msgid "Decryption failed"
+msgstr "Le déchiffrement a échoué"
+
+#: ../dialog.js:198
+msgid "Encrypt"
+msgstr "Crypter"
+
+#: ../dialog.js:230 ../dialog.js:471
+msgid "Label for encrypted entry"
+msgstr "Étiquette d'entrée cryptée"
+
+#: ../dialog.js:287 ../dialog.js:566
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: ../dialog.js:314 ../dialog.js:593
+msgid "Enter and confirm the encryption passphrase"
+msgstr "Entrez et confirmez la phrase secrète de chiffrement"
+
+#: ../dialog.js:340 ../dialog.js:382 ../dialog.js:691
+msgid "Label already exists"
+msgstr "Étiquette existe déjà"
+
+#: ../dialog.js:378 ../dialog.js:679
+msgid "Specify a label for the encrypted entry"
+msgstr "Spécifiez une étiquette pour l'entrée chiffrée"
+
+#: ../dialog.js:392 ../dialog.js:701
+msgid "Passphrase mismatch"
+msgstr "Non-concordance de la phrase secrète"
+
+#: ../dialog.js:395 ../dialog.js:704
+msgid "Passphrase match"
+msgstr "Correspondance de la phrase secrète"
+
+#: ../dialog.js:447 ../dialog.js:661
+msgid "ReEncrypt"
+msgstr "Reencypt"
+
+#: ../dialog.js:492
+msgid "Original passphrase"
+msgstr "Mot de passe original"
+
+#: ../dialog.js:659
+msgid "Rename"
+msgstr "Renommer"
+
+#: ../dialog.js:766 ../prefs.js:515
+msgid "Ok"
+msgstr "D'accord"
+
+#: ../dialog.js:796
+msgid "Password label"
+msgstr "L'étiquette de mot de passe"
+
+#: ../dialog.js:807
+msgid "Enter name for the password entry"
+msgstr "Entrez le nom de l'entrée du mot de passe"
+
+#: ../dialog.js:811
+msgid "Enter new name for the password entry"
+msgstr "Entrez un nouveau nom pour l'entrée du mot de passe"
 
 #: ../hms.js:141
 msgid "seconds"
@@ -118,86 +208,6 @@ msgstr "Raccourci clavier pour afficher le menu d'historique"
 msgid "Keyboard shortcut next item"
 msgstr "Raccourci clavier pour sélectionner l'élément suivant"
 
-#: ../prefs.ui:43
-msgctxt "prefs-title"
-msgid "Preferences"
-msgstr "Préférences"
-
-#: ../prefs.ui:49
-msgctxt "clippie-frame"
-msgid "Clippie options"
-msgstr "Options de Clippie"
-
-#: ../prefs.ui:67
-msgctxt "clippie-frame"
-msgid "GPaste options"
-msgstr "Options GPaste"
-
-#: ../prefs.ui:95 ../ui/prefs3x.ui:334 ../ui/prefs40.ui:311
-msgctxt "debug-text"
-msgid "Debug"
-msgstr "Déboguer"
-
-#: ../prefs.ui:105 ../ui/prefs3x.ui:346 ../ui/prefs40.ui:323
-msgctxt "debug-tooltip"
-msgid "Enable debugging output"
-msgstr "Activer la sortie de débogage"
-
-#: ../prefs.ui:108 ../ui/prefs3x.ui:349 ../ui/prefs40.ui:326
-msgctxt "show-histories-text"
-msgid "Show history menu"
-msgstr "Afficher le menu historique"
-
-#: ../prefs.ui:118 ../ui/prefs3x.ui:361 ../ui/prefs40.ui:338
-msgctxt "show-histories-tooltip"
-msgid "Show history menu"
-msgstr "Afficher le menu historique"
-
-#: ../prefs.ui:121 ../ui/prefs3x.ui:464 ../ui/prefs40.ui:441
-msgctxt "accel-enable-text"
-msgid "Enable keyboard shortcuts"
-msgstr "Activer les raccourcis clavier"
-
-#: ../prefs.ui:131 ../ui/prefs3x.ui:474 ../ui/prefs40.ui:451
-msgctxt "accel-enable"
-msgid "Enable keyboard shortcuts"
-msgstr "Activer les raccourcis clavier"
-
-#: ../prefs.ui:136
-msgctxt "daemon-reexec"
-msgid "Test Keyboard shortcut"
-msgstr "Tester le raccourci clavier"
-
-#: ../prefs.ui:141 ../ui/prefs3x.ui:553 ../ui/prefs40.ui:530
-msgctxt "track-changes-text"
-msgid "GPaste track changes"
-msgstr "Suivre les modifications dans le presse-papiers GPaste"
-
-#: ../prefs.ui:151 ../ui/prefs3x.ui:563 ../ui/prefs40.ui:540
-msgctxt "track-changes-tooltip"
-msgid "Enable debugging output"
-msgstr "Activer la sortie de débogage"
-
-#: ../prefs.ui:156 ../ui/prefs3x.ui:568 ../ui/prefs40.ui:545
-msgctxt "daemon-reexec"
-msgid "GPaste daemon restart"
-msgstr "Redémarrage du démon GPaste"
-
-#: ../prefs.ui:157 ../ui/prefs3x.ui:569 ../ui/prefs40.ui:546
-msgctxt "daemon-reexec-tooltip"
-msgid "Restart the gpaste-client daemon"
-msgstr "Redémarrez le démon gpaste-client"
-
-#: ../prefs.ui:162 ../ui/prefs3x.ui:574 ../ui/prefs40.ui:551
-msgctxt "daemon-reexec"
-msgid "GPaste Settings"
-msgstr "Paramètres GPaste"
-
-#: ../prefs.ui:163 ../ui/prefs3x.ui:575 ../ui/prefs40.ui:552
-msgctxt "daemon-reexec-tooltip"
-msgid "Open the GPaste settings UI"
-msgstr "Ouvrez l'interface utilisateur des paramètres GPaste"
-
 #: ../ui/kb_shortcuts_dialog3x.ui:55 ../ui/kb_shortcuts_dialog40.ui:34
 msgid "Press your keyboard shortcut..."
 msgstr "Entrez le raccourci clavier"
@@ -205,11 +215,6 @@ msgstr "Entrez le raccourci clavier"
 #: ../ui/kb_shortcuts_dialog3x.ui:69 ../ui/kb_shortcuts_dialog40.ui:43
 msgid "Keyboard shortcut"
 msgstr "Le raccourci clavier"
-
-#: ../ui/kb_shortcuts_dialog3x.ui:72 ../dialog.js:43 ../dialog.js:201
-#: ../dialog.js:645 ../dialog.js:769 ../prefs.js:514
-msgid "Cancel"
-msgstr "Annuler"
 
 #: ../ui/prefs3x.ui:128 ../ui/prefs40.ui:107
 msgid "Shortcuts"
@@ -235,6 +240,26 @@ msgstr ""
 msgctxt "about"
 msgid "About"
 msgstr "À propos"
+
+#: ../ui/prefs3x.ui:334 ../ui/prefs40.ui:311 ../prefs.ui:95
+msgctxt "debug-text"
+msgid "Debug"
+msgstr "Déboguer"
+
+#: ../ui/prefs3x.ui:346 ../ui/prefs40.ui:323 ../prefs.ui:105
+msgctxt "debug-tooltip"
+msgid "Enable debugging output"
+msgstr "Activer la sortie de débogage"
+
+#: ../ui/prefs3x.ui:349 ../ui/prefs40.ui:326 ../prefs.ui:108
+msgctxt "show-histories-text"
+msgid "Show history menu"
+msgstr "Afficher le menu historique"
+
+#: ../ui/prefs3x.ui:361 ../ui/prefs40.ui:338 ../prefs.ui:118
+msgctxt "show-histories-tooltip"
+msgid "Show history menu"
+msgstr "Afficher le menu historique"
 
 #: ../ui/prefs3x.ui:366 ../ui/prefs40.ui:343
 msgctxt "cache-password-text"
@@ -291,6 +316,16 @@ msgctxt "save-eclips-tooltip"
 msgid "Enable and select folder for eclips"
 msgstr "Sélectionnez le dossier pour les clips cryptés"
 
+#: ../ui/prefs3x.ui:464 ../ui/prefs40.ui:441 ../prefs.ui:121
+msgctxt "accel-enable-text"
+msgid "Enable keyboard shortcuts"
+msgstr "Activer les raccourcis clavier"
+
+#: ../ui/prefs3x.ui:474 ../ui/prefs40.ui:451 ../prefs.ui:131
+msgctxt "accel-enable"
+msgid "Enable keyboard shortcuts"
+msgstr "Activer les raccourcis clavier"
+
 #: ../ui/prefs3x.ui:480 ../ui/prefs40.ui:457
 msgctxt "accel-menu-text"
 msgid "Show clippie menu"
@@ -321,124 +356,69 @@ msgctxt "accel-next"
 msgid "Enable clippie next keyboard shortcut"
 msgstr "Activer le raccourci clavier clippie suivant"
 
+#: ../ui/prefs3x.ui:553 ../ui/prefs40.ui:530 ../prefs.ui:141
+msgctxt "track-changes-text"
+msgid "GPaste track changes"
+msgstr "Suivre les modifications dans le presse-papiers GPaste"
+
+#: ../ui/prefs3x.ui:563 ../ui/prefs40.ui:540 ../prefs.ui:151
+msgctxt "track-changes-tooltip"
+msgid "Enable debugging output"
+msgstr "Activer la sortie de débogage"
+
+#: ../ui/prefs3x.ui:568 ../ui/prefs40.ui:545 ../prefs.ui:156
+msgctxt "daemon-reexec"
+msgid "GPaste daemon restart"
+msgstr "Redémarrage du démon GPaste"
+
+#: ../ui/prefs3x.ui:569 ../ui/prefs40.ui:546 ../prefs.ui:157
+msgctxt "daemon-reexec-tooltip"
+msgid "Restart the gpaste-client daemon"
+msgstr "Redémarrez le démon gpaste-client"
+
+#: ../ui/prefs3x.ui:574 ../ui/prefs40.ui:551 ../prefs.ui:162
+msgctxt "daemon-reexec"
+msgid "GPaste Settings"
+msgstr "Paramètres GPaste"
+
+#: ../ui/prefs3x.ui:575 ../ui/prefs40.ui:552 ../prefs.ui:163
+msgctxt "daemon-reexec-tooltip"
+msgid "Open the GPaste settings UI"
+msgstr "Ouvrez l'interface utilisateur des paramètres GPaste"
+
 #: ../ui/prefs40.ui:145
 msgid "About"
 msgstr "À propos"
 
-#: ../clippie.js:817 ../clippie.js:858 ../clippie.js:888
+#: ../clippie.js:1106 ../clippie.js:1147 ../clippie.js:1178
 msgid "openssl not found"
 msgstr "openssl introuvable"
 
-#: ../clippie.js:821
+#: ../clippie.js:1110
 msgid "will not encrypt without passphrase"
 msgstr "Ne cryptera pas sans phrase secrète"
 
-#: ../dialog.js:39
-msgid "Decrypt"
-msgstr "Décrypter"
-
-#: ../dialog.js:71 ../dialog.js:249 ../dialog.js:528
-msgid "Passphrase"
-msgstr "Phrase secrète"
-
-#: ../dialog.js:85 ../dialog.js:257 ../dialog.js:294 ../dialog.js:499
-#: ../dialog.js:536 ../dialog.js:573
-msgid "Cached password cleared"
-msgstr "Mot de passe enregistré effacé"
-
-#: ../dialog.js:98
-msgid "Enter the decryption passphrase"
-msgstr "Entrez la phrase secrète de déchiffrement"
-
-#: ../dialog.js:144 ../dialog.js:387 ../dialog.js:696
-msgid "Passphrase too short"
-msgstr "Phrase secrète trop courte"
-
-#: ../dialog.js:163
-msgid "Decryption failed"
-msgstr "Le déchiffrement a échoué"
-
-#: ../dialog.js:197
-msgid "Encrypt"
-msgstr "Crypter"
-
-#: ../dialog.js:229 ../dialog.js:470
-msgid "Label for encrypted entry"
-msgstr "Étiquette d'entrée cryptée"
-
-#: ../dialog.js:286 ../dialog.js:565
-msgid "Confirm"
-msgstr "Confirmer"
-
-#: ../dialog.js:313 ../dialog.js:592
-msgid "Enter and confirm the encryption passphrase"
-msgstr "Entrez et confirmez la phrase secrète de chiffrement"
-
-#: ../dialog.js:339 ../dialog.js:381 ../dialog.js:690
-msgid "Label already exists"
-msgstr "Étiquette existe déjà"
-
-#: ../dialog.js:377 ../dialog.js:678
-msgid "Specify a label for the encrypted entry"
-msgstr "Spécifiez une étiquette pour l'entrée chiffrée"
-
-#: ../dialog.js:391 ../dialog.js:700
-msgid "Passphrase mismatch"
-msgstr "Non-concordance de la phrase secrète"
-
-#: ../dialog.js:394 ../dialog.js:703
-msgid "Passphrase match"
-msgstr "Correspondance de la phrase secrète"
-
-#: ../dialog.js:446 ../dialog.js:660
-msgid "ReEncrypt"
-msgstr "Reencypt"
-
-#: ../dialog.js:491
-msgid "Original passphrase"
-msgstr "Mot de passe original"
-
-#: ../dialog.js:658
-msgid "Rename"
-msgstr "Renommer"
-
-#: ../dialog.js:765 ../prefs.js:515
-msgid "Ok"
-msgstr "D'accord"
-
-#: ../dialog.js:795
-msgid "Password label"
-msgstr "L'étiquette de mot de passe"
-
-#: ../dialog.js:806
-msgid "Enter name for the password entry"
-msgstr "Entrez le nom de l'entrée du mot de passe"
-
-#: ../dialog.js:810
-msgid "Enter new name for the password entry"
-msgstr "Entrez un nouveau nom pour l'entrée du mot de passe"
-
-#: ../menus.js:91
+#: ../menus.js:105
 msgid "More…"
 msgstr "Plus…"
 
-#: ../menus.js:476
+#: ../menus.js:492
 msgid "Search"
 msgstr "Rechercher"
 
-#: ../menus.js:642
+#: ../menus.js:659
 msgid "History ["
 msgstr "Histoire ["
 
-#: ../menus.js:715
+#: ../menus.js:732
 msgid "Create history"
 msgstr "Créer une histoire"
 
-#: ../menus.js:818
+#: ../menus.js:835
 msgid "Clear"
 msgstr "Vider"
 
-#: ../menus.js:859
+#: ../menus.js:876
 msgid "Delete"
 msgstr "Effacer"
 
@@ -467,6 +447,26 @@ msgstr "gpaste-client ui a renvoyé %d: assurez-vous que gpaste-ui est installé
 #: ../prefs.js:495
 msgid "Select eclips folder"
 msgstr "Sélectionnez le dossier eclips"
+
+#: ../prefs.ui:43
+msgctxt "prefs-title"
+msgid "Preferences"
+msgstr "Préférences"
+
+#: ../prefs.ui:49
+msgctxt "clippie-frame"
+msgid "Clippie options"
+msgstr "Options de Clippie"
+
+#: ../prefs.ui:67
+msgctxt "clippie-frame"
+msgid "GPaste options"
+msgstr "Options GPaste"
+
+#: ../prefs.ui:136
+msgctxt "daemon-reexec"
+msgid "Test Keyboard shortcut"
+msgstr "Tester le raccourci clavier"
 
 #~ msgid "Reuse the same eclipse password for the duration of the session"
 #~ msgstr "Réutiliser le même mot de passe eclipse pour la durée de la session"

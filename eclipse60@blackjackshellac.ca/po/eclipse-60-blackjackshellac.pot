@@ -1,15 +1,15 @@
 # Clippie
 # Copyright (C) 2021, Steeve McCauley
-# This file is distributed under the same license as the eclipse-blackjackshellac package.
-# Steeve McCauley <steeve.mccauley@gmail.com>, 2001
+# This file is distributed under the same license as the eclipse-60-blackjackshellac package.
+# Steeve McCauley <steeve.mccauley60@gmail.com>, 2001
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: eclipse-60-blackjackshellac\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 12:57-0400\n"
-"PO-Revision-Date: 2021-05-20 12:57-0400\n"
+"POT-Creation-Date: 2022-03-30 14:14-0400\n"
+"PO-Revision-Date: 2022-03-30 14:14-0400\n"
 "Last-Translator: Steeve McCauley <steeve.mccauley60@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,22 +21,23 @@ msgstr ""
 #: clippie.js:731 clippie.js:747 clippie.js:748 clippie.js:764 clippie.js:783
 #: clippie.js:789 clippie.js:793 clippie.js:805 clippie.js:814 clippie.js:817
 #: clippie.js:821 clippie.js:854 clippie.js:858 clippie.js:864 clippie.js:884
-#: clippie.js:888 clippie.js:905 clippie.js:935
+#: clippie.js:888 clippie.js:905 clippie.js:935 clippie.js:1106 clippie.js:1147
+#: clippie.js:1178
 msgid "openssl not found"
 msgstr ""
 
 #: clippie.js:679 clippie.js:686 clippie.js:704 clippie.js:709 clippie.js:728
 #: clippie.js:734 clippie.js:750 clippie.js:751 clippie.js:767 clippie.js:786
 #: clippie.js:792 clippie.js:796 clippie.js:808 clippie.js:818 clippie.js:820
-#: clippie.js:821 clippie.js:824 clippie.js:868
+#: clippie.js:821 clippie.js:824 clippie.js:868 clippie.js:1110
 msgid "will not encrypt without passphrase"
 msgstr ""
 
 #: dialog.js:38 dialog.js:40 dialog.js:357 dialog.js:379 dialog.js:438
-#: dialog.js:440 dialog.js:743 dialog.js:765 dialog.js:767 prefs.js:378
-#: prefs.js:392 prefs.js:394 prefs.js:401 prefs.js:406 prefs.js:443
-#: prefs.js:446 prefs.js:487 prefs.js:489 prefs.js:498 prefs.js:504
-#: prefs.js:515
+#: dialog.js:440 dialog.js:743 dialog.js:765 dialog.js:766 dialog.js:767
+#: prefs.js:378 prefs.js:392 prefs.js:394 prefs.js:401 prefs.js:406
+#: prefs.js:443 prefs.js:446 prefs.js:487 prefs.js:489 prefs.js:498
+#: prefs.js:504 prefs.js:515
 msgid "Ok"
 msgstr ""
 
@@ -45,31 +46,33 @@ msgid "Decrypt"
 msgstr ""
 
 #: dialog.js:43 dialog.js:44 dialog.js:175 dialog.js:186 dialog.js:201
-#: dialog.js:204 dialog.js:205 dialog.js:361 dialog.js:383 dialog.js:442
-#: dialog.js:444 dialog.js:457 dialog.js:645 dialog.js:747 dialog.js:769
-#: dialog.js:771 prefs.js:377 prefs.js:391 prefs.js:393 prefs.js:400
-#: prefs.js:405 prefs.js:442 prefs.js:445 prefs.js:486 prefs.js:488
-#: prefs.js:497 prefs.js:503 prefs.js:514
+#: dialog.js:202 dialog.js:204 dialog.js:205 dialog.js:361 dialog.js:383
+#: dialog.js:442 dialog.js:444 dialog.js:457 dialog.js:645 dialog.js:646
+#: dialog.js:747 dialog.js:769 dialog.js:770 dialog.js:771 prefs.js:377
+#: prefs.js:391 prefs.js:393 prefs.js:400 prefs.js:405 prefs.js:442
+#: prefs.js:445 prefs.js:486 prefs.js:488 prefs.js:497 prefs.js:503
+#: prefs.js:514
 msgid "Cancel"
 msgstr ""
 
 #: dialog.js:71 dialog.js:73 dialog.js:220 dialog.js:231 dialog.js:249
-#: dialog.js:252 dialog.js:253 dialog.js:528 dialog.js:543
+#: dialog.js:250 dialog.js:252 dialog.js:253 dialog.js:528 dialog.js:529
+#: dialog.js:543
 msgid "Passphrase"
 msgstr ""
 
 #: dialog.js:72 dialog.js:74 dialog.js:391 dialog.js:413 dialog.js:468
-#: dialog.js:470 dialog.js:773 dialog.js:795 dialog.js:797
+#: dialog.js:470 dialog.js:773 dialog.js:795 dialog.js:796 dialog.js:797
 msgid "Password label"
 msgstr ""
 
 #: dialog.js:75 dialog.js:85 dialog.js:402 dialog.js:424 dialog.js:479
-#: dialog.js:481 dialog.js:784 dialog.js:806 dialog.js:808
+#: dialog.js:481 dialog.js:784 dialog.js:806 dialog.js:807 dialog.js:808
 msgid "Enter name for the password entry"
 msgstr ""
 
 #: dialog.js:79 dialog.js:89 dialog.js:406 dialog.js:428 dialog.js:483
-#: dialog.js:485 dialog.js:788 dialog.js:810 dialog.js:812
+#: dialog.js:485 dialog.js:788 dialog.js:810 dialog.js:811 dialog.js:812
 msgid "Enter new name for the password entry"
 msgstr ""
 
@@ -77,15 +80,16 @@ msgstr ""
 msgid "Enter the decryption passphrase"
 msgstr ""
 
-#: dialog.js:85 dialog.js:257 dialog.js:260 dialog.js:261 dialog.js:294
-#: dialog.js:297 dialog.js:298 dialog.js:499 dialog.js:514 dialog.js:536
-#: dialog.js:551 dialog.js:573 dialog.js:588
+#: dialog.js:85 dialog.js:257 dialog.js:258 dialog.js:260 dialog.js:261
+#: dialog.js:294 dialog.js:295 dialog.js:297 dialog.js:298 dialog.js:499
+#: dialog.js:500 dialog.js:514 dialog.js:536 dialog.js:537 dialog.js:551
+#: dialog.js:573 dialog.js:574 dialog.js:588
 msgid "Cached password cleared"
 msgstr ""
 
-#: dialog.js:118 dialog.js:129 dialog.js:144 dialog.js:299 dialog.js:321
-#: dialog.js:377 dialog.js:378 dialog.js:387 dialog.js:390 dialog.js:682
-#: dialog.js:696
+#: dialog.js:118 dialog.js:129 dialog.js:144 dialog.js:145 dialog.js:299
+#: dialog.js:321 dialog.js:377 dialog.js:378 dialog.js:387 dialog.js:388
+#: dialog.js:390 dialog.js:682 dialog.js:696 dialog.js:697
 msgid "Passphrase too short"
 msgstr ""
 
@@ -93,54 +97,55 @@ msgstr ""
 msgid "Decryption failed"
 msgstr ""
 
-#: dialog.js:171 dialog.js:182 dialog.js:197 dialog.js:200 dialog.js:201
+#: dialog.js:171 dialog.js:182 dialog.js:197 dialog.js:198 dialog.js:200
+#: dialog.js:201
 msgid "Encrypt"
 msgstr ""
 
-#: dialog.js:201 dialog.js:212 dialog.js:229 dialog.js:232 dialog.js:233
-#: dialog.js:470 dialog.js:485
+#: dialog.js:201 dialog.js:212 dialog.js:229 dialog.js:230 dialog.js:232
+#: dialog.js:233 dialog.js:470 dialog.js:471 dialog.js:485
 msgid "Label for encrypted entry"
 msgstr ""
 
-#: dialog.js:239 dialog.js:250 dialog.js:286 dialog.js:289 dialog.js:290
-#: dialog.js:565 dialog.js:580
+#: dialog.js:239 dialog.js:250 dialog.js:286 dialog.js:287 dialog.js:289
+#: dialog.js:290 dialog.js:565 dialog.js:566 dialog.js:580
 msgid "Confirm"
 msgstr ""
 
-#: dialog.js:249 dialog.js:260 dialog.js:313 dialog.js:316 dialog.js:317
-#: dialog.js:592 dialog.js:607
+#: dialog.js:249 dialog.js:260 dialog.js:313 dialog.js:314 dialog.js:316
+#: dialog.js:317 dialog.js:592 dialog.js:593 dialog.js:607
 msgid "Enter and confirm the encryption passphrase"
 msgstr ""
 
 #: dialog.js:293 dialog.js:315 dialog.js:371 dialog.js:372 dialog.js:377
-#: dialog.js:380 dialog.js:672 dialog.js:678
+#: dialog.js:378 dialog.js:380 dialog.js:672 dialog.js:678 dialog.js:679
 msgid "Specify a label for the encrypted entry"
 msgstr ""
 
 #: dialog.js:303 dialog.js:325 dialog.js:381 dialog.js:382 dialog.js:391
-#: dialog.js:394 dialog.js:686 dialog.js:700
+#: dialog.js:392 dialog.js:394 dialog.js:686 dialog.js:700 dialog.js:701
 msgid "Passphrase mismatch"
 msgstr ""
 
 #: dialog.js:306 dialog.js:328 dialog.js:384 dialog.js:385 dialog.js:394
-#: dialog.js:397 dialog.js:689 dialog.js:703
+#: dialog.js:395 dialog.js:397 dialog.js:689 dialog.js:703 dialog.js:704
 msgid "Passphrase match"
 msgstr ""
 
-#: dialog.js:339 dialog.js:342 dialog.js:381 dialog.js:384 dialog.js:634
-#: dialog.js:676 dialog.js:690
+#: dialog.js:339 dialog.js:340 dialog.js:342 dialog.js:381 dialog.js:382
+#: dialog.js:384 dialog.js:634 dialog.js:676 dialog.js:690 dialog.js:691
 msgid "Label already exists"
 msgstr ""
 
-#: dialog.js:446 dialog.js:453 dialog.js:660
+#: dialog.js:446 dialog.js:447 dialog.js:453 dialog.js:660 dialog.js:661
 msgid "ReEncrypt"
 msgstr ""
 
-#: dialog.js:491 dialog.js:506
+#: dialog.js:491 dialog.js:492 dialog.js:506
 msgid "Original passphrase"
 msgstr ""
 
-#: dialog.js:658
+#: dialog.js:658 dialog.js:659
 msgid "Rename"
 msgstr ""
 
@@ -165,14 +170,14 @@ msgid "eclipse"
 msgstr ""
 
 #: menus.js:67 menus.js:68 menus.js:73 menus.js:75 menus.js:76 menus.js:78
-#: menus.js:80 menus.js:90 menus.js:91 menus.js:96
+#: menus.js:80 menus.js:90 menus.js:91 menus.js:96 menus.js:105
 msgid "More…"
 msgstr ""
 
 #: menus.js:260 menus.js:263 menus.js:299 menus.js:304 menus.js:305
 #: menus.js:313 menus.js:333 menus.js:334 menus.js:335 menus.js:346
 #: menus.js:352 menus.js:357 menus.js:377 menus.js:397 menus.js:421
-#: menus.js:467 menus.js:468 menus.js:469 menus.js:476
+#: menus.js:467 menus.js:468 menus.js:469 menus.js:476 menus.js:492
 msgid "Search"
 msgstr ""
 
@@ -182,26 +187,26 @@ msgstr ""
 
 #: menus.js:432 menus.js:433 menus.js:445 menus.js:451 menus.js:456
 #: menus.js:476 menus.js:496 menus.js:548 menus.js:550 menus.js:633
-#: menus.js:634 menus.js:635 menus.js:642
+#: menus.js:634 menus.js:635 menus.js:642 menus.js:659
 msgid "History ["
 msgstr ""
 
 #: menus.js:504 menus.js:506 menus.js:507 menus.js:509 menus.js:510
 #: menus.js:511 menus.js:518 menus.js:524 menus.js:529 menus.js:549
 #: menus.js:569 menus.js:621 menus.js:623 menus.js:706 menus.js:707
-#: menus.js:708 menus.js:715
+#: menus.js:708 menus.js:715 menus.js:732
 msgid "Create history"
 msgstr ""
 
 #: menus.js:606 menus.js:621 menus.js:623 menus.js:624 menus.js:627
 #: menus.js:632 menus.js:652 menus.js:672 menus.js:724 menus.js:726
-#: menus.js:809 menus.js:810 menus.js:811 menus.js:818
+#: menus.js:809 menus.js:810 menus.js:811 menus.js:818 menus.js:835
 msgid "Clear"
 msgstr ""
 
 #: menus.js:647 menus.js:662 menus.js:664 menus.js:665 menus.js:668
 #: menus.js:673 menus.js:693 menus.js:713 menus.js:765 menus.js:767
-#: menus.js:850 menus.js:851 menus.js:852 menus.js:859
+#: menus.js:850 menus.js:851 menus.js:852 menus.js:859 menus.js:876
 msgid "Delete"
 msgstr ""
 
