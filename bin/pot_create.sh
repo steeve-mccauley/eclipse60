@@ -1,20 +1,23 @@
 #!/bin/bash
+#
+# ./bin/pot_create.sh
+#
 
 ME=$(basename $0)
 MD=$(cd $(dirname $0); pwd)
 
 echo $MD
-cd $MD/../eclipse@blackjackshellac.ca
+cd $MD/../eclipse60@blackjackshellac.ca
 [ $? -ne 0 ] && echo "Failed to change to extension directory" && exit 1
 
 echo Working in $(pwd)
 
-pot='po/eclipse-blackjackshellac.pot'
+pot='po/eclipse-60-blackjackshellac.pot'
 opts="--from-code=UTF-8 -F -j --output=$pot"
 #opts="$opts --copyright-holder=SteeveMcCauley"
 #--foreign-user
 #omit FSF copyright in output for foreign user
-opts="$opts --package-name=eclipse-blackjackshellac"
+opts="$opts --package-name=eclipse-60-blackjackshellac"
 #opts="$opts --package-version='5'"
 files="*.js *.ui schemas/*.xml"
 files="*.js schemas/*.xml"
@@ -42,7 +45,7 @@ $cmd
 sed -i 's/SOME DESCRIPTIVE TITLE./Clippie/' $pot
 sed -i 's/YEAR THE PACKAGE.S COPYRIGHT HOLDER/2021, Steeve McCauley/' $pot
 sed -i 's/FIRST AUTHOR/Steeve McCauley/' $pot
-sed -i 's/EMAIL.ADDRESS/steeve.mccauley@gmail.com/' $pot
+sed -i 's/EMAIL.ADDRESS/steeve.mccauley60@gmail.com/' $pot
 sed -i 's/FULL NAME/Steeve McCauley/' $pot
 sed -i 's/, YEAR./, 2001/' $pot
 now=$(date "+%Y-%m-%d %H:%M%z")

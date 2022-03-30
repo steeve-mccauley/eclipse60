@@ -21,7 +21,7 @@ const { GLib, Gio, GObject, St, Shell } = imports.gi;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 
-const GETTEXT_DOMAIN = 'eclipse-blackjackshellac';
+const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
 const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
 const _ = Gettext.gettext;
 

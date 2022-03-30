@@ -18,9 +18,9 @@
 */
 -->
 
-<schemalist gettext-domain="eclipse-blackjackshellac">
-  <schema id="org.gnome.shell.extensions.eclipse-blackjackshellac"
-          path="/org/gnome/shell/extensions/eclipse-blackjackshellac/">
+<schemalist gettext-domain="eclipse-60-blackjackshellac">
+  <schema id="org.gnome.shell.extensions.eclipse-60-blackjackshellac"
+          path="/org/gnome/shell/extensions/eclipse-60-blackjackshellac/">
     <key name="debug" type="b">
       <default>false</default>
       <summary>Turn on debugging</summary>

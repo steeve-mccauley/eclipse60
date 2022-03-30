@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-
+#
 require 'json'
 
 ME=File.basename($0, ".rb")
@@ -12,7 +12,7 @@ puts "desc=#{desc}"
 begin
 	puts "Reading from #{desc}"
 
-	metadata_file=File.join(MD, "..", "eclipse@blackjackshellac.ca", "metadata.json")
+	metadata_file=File.join(MD, "..", "eclipse60@blackjackshellac.ca", "metadata.json")
 	puts "Updating #{metadata_file}"
 
 	metadata_json=File.read(metadata_file)

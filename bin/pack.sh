@@ -1,6 +1,9 @@
 #!/bin/bash
+#
+# ./bin/pack.sh
+#
 
-ed=eclipse@blackjackshellac.ca
+ed=eclipse60@blackjackshellac.ca
 [ ! -d $ed ] && echo "Extension dir $ed not found" && exit 1
 cd $ed
 
@@ -18,6 +21,6 @@ done
 
 eso="$eso --extra-source=./icons/ --extra-source=./bin/ --extra-source=./ui/"
 
-cmd="gnome-extensions pack --podir=po/ --schema=schemas/org.gnome.shell.extensions.eclipse-blackjackshellac.gschema.xml --gettext-domain=eclipse-blackjackshellac $eso -o ../ --force"
+cmd="gnome-extensions pack --podir=po/ --schema=schemas/org.gnome.shell.extensions.eclipse-60-blackjackshellac.gschema.xml --gettext-domain=eclipse-60-blackjackshellac $eso -o ../ --force"
 echo $cmd
 $cmd

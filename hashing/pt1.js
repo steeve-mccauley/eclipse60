@@ -4,7 +4,7 @@ const GLib = imports.gi.GLib;
 const ByteArray = imports.byteArray;
 
 imports.searchPath.unshift('.');
-imports.searchPath.unshift('../eclipse@blackjackshellac.ca/');
+imports.searchPath.unshift('../eclipse60@blackjackshellac.ca/');
 var FastSha256 = imports.fast_sha256;
 var Base64 = imports.base64;
 var Sha256 = imports.sha256;

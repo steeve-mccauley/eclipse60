@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# ./bin/random_history.sh
+#
 
 ME=$(basename $0)
 MD=$(dirname $0)
