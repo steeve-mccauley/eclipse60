@@ -166,13 +166,12 @@
                       <object class="GtkLabel" id="title">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="label">eclipse</property>
+                        <property name="label">eclipse60</property>
                         <property name="halign">center</property>
                         <attributes>
                           <attribute name="font-desc" value="Sans 10"/>
                           <attribute name="style" value="normal"/>
                           <attribute name="weight" value="medium"/>
-                          <attribute name="variant" value="small-caps"/>
                           <attribute name="scale" value="2"/>
                         </attributes>
                       </object>
@@ -231,11 +230,11 @@
                     </child>
                     <child>
                       <object class="GtkLinkButton" id="link_blackjackshellac">
-                        <property name="label" translatable="no">https://github.com/blackjackshellac/eclipse</property>
+                        <property name="label" translatable="no">https://github.com/steeve-mccauley/eclipse60</property>
                         <property name="visible">True</property>
                         <property name="can-focus">True</property>
                         <property name="receives-default">False</property>
-                        <property name="uri">https://github.com/blackjackshellac/eclipse</property>
+                        <property name="uri">https://github.com/steeve-mccauley/eclipse60</property>
                         <property name="hexpand">0</property>
                         <property name="vexpand">0</property>
                         <property name='has-frame'>False</property>
@@ -262,27 +261,6 @@ See the &lt;a href="https://www.gnu.org/licenses/gpl-3.0.html"&gt;GNU GPL 3 Lice
                         <property name="justify">center</property>
                         <property name="wrap">True</property>
                         <!--<property name="track-visited-links">False</property>-->
-                      </object>
-                    </child>
-                    <child>
-                      <object class="GtkBox">
-                        <property name="visible">True</property>
-                        <property name="can-focus">True</property>
-                        <property name="margin-start">5</property>
-                        <property name="margin-end">5</property>
-                        <property name="margin-top">5</property>
-                        <property name="orientation">vertical</property>
-                        <child>
-                          <object class="GtkLinkButton" id="link_bmac">
-                            <property name="label">www.buymeacoffee.com/blckjackshellac</property>
-                            <property name="visible">True</property>
-                            <property name="can-focus">True</property>
-                            <property name="receives-default">False</property>
-                            <property name="hexpand">False</property>
-                            <property name="vexpand">False</property>
-                            <property name="uri">https://www.buymeacoffee.com/blckjackshellac</property>
-                          </object>
-                        </child>
                       </object>
                     </child>
                   </object>

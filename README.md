@@ -102,14 +102,14 @@ Install from github using something like the following,
 ```
 $ mkdir ~/github
 $ cd ~/github
-$ git clone https://github.com/blackjackshellac/eclipse.git
+$ git clone https://github.com/steeve-mccauley/eclipse60
 $ cd eclipse
 $ ./install_local.sh
 ```
 
 Restart the shell or logout and login.
 
-The extension is installed in `~/.local/share/gnome-shell/extensions/eclipse@blackjackshellac.ca`
+The extension is installed in `~/.local/share/gnome-shell/extensions/eclipse60@blackjackshellac.ca`
 
 ### Clipboard Menu
 
