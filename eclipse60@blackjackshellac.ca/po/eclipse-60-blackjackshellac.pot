@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eclipse-60-blackjackshellac\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-30 15:17-0400\n"
-"PO-Revision-Date: 2022-03-30 15:17-0400\n"
+"POT-Creation-Date: 2022-08-22 16:19-0400\n"
+"PO-Revision-Date: 2022-08-22 16:19-0400\n"
 "Last-Translator: Steeve McCauley <steeve.mccauley60@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -37,7 +37,7 @@ msgstr ""
 #: dialog.js:440 dialog.js:743 dialog.js:765 dialog.js:766 dialog.js:767
 #: prefs.js:378 prefs.js:392 prefs.js:394 prefs.js:401 prefs.js:406
 #: prefs.js:443 prefs.js:446 prefs.js:487 prefs.js:489 prefs.js:498
-#: prefs.js:504 prefs.js:515
+#: prefs.js:504 prefs.js:512 prefs.js:515
 msgid "Ok"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgstr ""
 #: dialog.js:747 dialog.js:769 dialog.js:770 dialog.js:771 prefs.js:377
 #: prefs.js:391 prefs.js:393 prefs.js:400 prefs.js:405 prefs.js:442
 #: prefs.js:445 prefs.js:486 prefs.js:488 prefs.js:497 prefs.js:503
-#: prefs.js:514
+#: prefs.js:511 prefs.js:514
 msgid "Cancel"
 msgstr ""
 
@@ -243,7 +243,8 @@ msgid "Select eClips folder"
 msgstr ""
 
 #: prefs.js:374 prefs.js:381 prefs.js:386 prefs.js:423 prefs.js:426
-#: prefs.js:467 prefs.js:469 prefs.js:478 prefs.js:484 prefs.js:495
+#: prefs.js:467 prefs.js:469 prefs.js:478 prefs.js:484 prefs.js:492
+#: prefs.js:495
 msgid "Select eclips folder"
 msgstr ""
 
