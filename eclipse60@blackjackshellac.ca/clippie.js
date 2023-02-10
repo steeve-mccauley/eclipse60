@@ -588,11 +588,14 @@ var Clippie = class Clippie {
   delete_eclip(clip) {
     if (clip.iseClip()) {
       let idx = this.eclips.findIndex(c => c.hash === clip.hash);
-      if (idx > -1) {
-        this.logger.debug('deleting index %d cached %s', idx, this.eclips[idx]);
+      // if (idx > -1)
+      if (idx === -1) {
+        this.logger.debug('eclips idx === -1');
+      } else {
+        this.logger.debug('eclips menu closed %d cached %s', idx, this.eclips[idx]);
         this.eclips.splice(idx, 1);
+        clip.delete_eclip_file();
       }
-      clip.delete_eclip_file();
     }
   }
 
@@ -963,7 +966,9 @@ var Clip = class Clip {
     // deleting the eclip on disk
     let file_name = this.eclip_file || Clip.eclip_file(this.label, this.hash);
     let path = GLib.build_filenamev( [ this.settings.save_eclips_path, file_name ] );
-    if (GLib.file_test(path, GLib.FileTest.EXISTS & GLib.FileTest.IS_REGULAR)) {
+
+    // this.logger.debug('1 delete eclip %s', path);
+    if (GLib.file_test(path, GLib.FileTest.EXISTS )) { //& GLib.FileTest.IS_REGULAR)) {
       this.logger.debug('delete eclip %s', path);
       if (GLib.unlink(path) === -1) {
         this.logger.error('failed to delete eclip %s', path);
