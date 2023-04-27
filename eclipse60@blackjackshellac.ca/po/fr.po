@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eclipse-60-blackjackshellac\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 16:11-0400\n"
+"POT-Creation-Date: 2023-04-27 12:03-0400\n"
 "PO-Revision-Date: 2021-05-19 09:31-0400\n"
 "Last-Translator: Steeve McCauley <steeve.mccauley60@gmail.com>\n"
 "Language-Team: French <steeve.mccauley60@gmail.com>\n"
@@ -17,96 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "X-Generator: Gtranslator 40.0\n"
-
-#: ../dialog.js:39
-msgid "Decrypt"
-msgstr "Décrypter"
-
-#: ../dialog.js:43 ../dialog.js:202 ../dialog.js:646 ../dialog.js:770
-#: ../ui/kb_shortcuts_dialog3x.ui:72 ../prefs.js:511
-msgid "Cancel"
-msgstr "Annuler"
-
-#: ../dialog.js:71 ../dialog.js:250 ../dialog.js:529
-msgid "Passphrase"
-msgstr "Phrase secrète"
-
-#: ../dialog.js:85 ../dialog.js:258 ../dialog.js:295 ../dialog.js:500
-#: ../dialog.js:537 ../dialog.js:574
-msgid "Cached password cleared"
-msgstr "Mot de passe enregistré effacé"
-
-#: ../dialog.js:98
-msgid "Enter the decryption passphrase"
-msgstr "Entrez la phrase secrète de déchiffrement"
-
-#: ../dialog.js:145 ../dialog.js:388 ../dialog.js:697
-msgid "Passphrase too short"
-msgstr "Phrase secrète trop courte"
-
-#: ../dialog.js:164
-msgid "Decryption failed"
-msgstr "Le déchiffrement a échoué"
-
-#: ../dialog.js:198
-msgid "Encrypt"
-msgstr "Crypter"
-
-#: ../dialog.js:230 ../dialog.js:471
-msgid "Label for encrypted entry"
-msgstr "Étiquette d'entrée cryptée"
-
-#: ../dialog.js:287 ../dialog.js:566
-msgid "Confirm"
-msgstr "Confirmer"
-
-#: ../dialog.js:314 ../dialog.js:593
-msgid "Enter and confirm the encryption passphrase"
-msgstr "Entrez et confirmez la phrase secrète de chiffrement"
-
-#: ../dialog.js:340 ../dialog.js:382 ../dialog.js:691
-msgid "Label already exists"
-msgstr "Étiquette existe déjà"
-
-#: ../dialog.js:378 ../dialog.js:679
-msgid "Specify a label for the encrypted entry"
-msgstr "Spécifiez une étiquette pour l'entrée chiffrée"
-
-#: ../dialog.js:392 ../dialog.js:701
-msgid "Passphrase mismatch"
-msgstr "Non-concordance de la phrase secrète"
-
-#: ../dialog.js:395 ../dialog.js:704
-msgid "Passphrase match"
-msgstr "Correspondance de la phrase secrète"
-
-#: ../dialog.js:447 ../dialog.js:661
-msgid "ReEncrypt"
-msgstr "Reencypt"
-
-#: ../dialog.js:492
-msgid "Original passphrase"
-msgstr "Mot de passe original"
-
-#: ../dialog.js:659
-msgid "Rename"
-msgstr "Renommer"
-
-#: ../dialog.js:766 ../prefs.js:512
-msgid "Ok"
-msgstr "D'accord"
-
-#: ../dialog.js:796
-msgid "Password label"
-msgstr "L'étiquette de mot de passe"
-
-#: ../dialog.js:807
-msgid "Enter name for the password entry"
-msgstr "Entrez le nom de l'entrée du mot de passe"
-
-#: ../dialog.js:811
-msgid "Enter new name for the password entry"
-msgstr "Entrez un nouveau nom pour l'entrée du mot de passe"
 
 #: ../hms.js:141
 msgid "seconds"
@@ -215,6 +125,11 @@ msgstr "Entrez le raccourci clavier"
 #: ../ui/kb_shortcuts_dialog3x.ui:69 ../ui/kb_shortcuts_dialog40.ui:43
 msgid "Keyboard shortcut"
 msgstr "Le raccourci clavier"
+
+#: ../ui/kb_shortcuts_dialog3x.ui:72 ../prefs.js:511 ../dialog.js:43
+#: ../dialog.js:202 ../dialog.js:646 ../dialog.js:770
+msgid "Cancel"
+msgstr "Annuler"
 
 #: ../ui/prefs3x.ui:128 ../ui/prefs40.ui:107
 msgid "Shortcuts"
@@ -390,14 +305,6 @@ msgstr "Ouvrez l'interface utilisateur des paramètres GPaste"
 msgid "About"
 msgstr "À propos"
 
-#: ../clippie.js:1106 ../clippie.js:1147 ../clippie.js:1178
-msgid "openssl not found"
-msgstr "openssl introuvable"
-
-#: ../clippie.js:1110
-msgid "will not encrypt without passphrase"
-msgstr "Ne cryptera pas sans phrase secrète"
-
 #: ../menus.js:105
 msgid "More…"
 msgstr "Plus…"
@@ -467,6 +374,99 @@ msgstr "gpaste-client ui a renvoyé %d: assurez-vous que gpaste-ui est installé
 #: ../prefs.js:492
 msgid "Select eclips folder"
 msgstr "Sélectionnez le dossier eclips"
+
+#: ../prefs.js:512 ../dialog.js:766
+msgid "Ok"
+msgstr "D'accord"
+
+#: ../dialog.js:39
+msgid "Decrypt"
+msgstr "Décrypter"
+
+#: ../dialog.js:71 ../dialog.js:250 ../dialog.js:529
+msgid "Passphrase"
+msgstr "Phrase secrète"
+
+#: ../dialog.js:85 ../dialog.js:258 ../dialog.js:295 ../dialog.js:500
+#: ../dialog.js:537 ../dialog.js:574
+msgid "Cached password cleared"
+msgstr "Mot de passe enregistré effacé"
+
+#: ../dialog.js:98
+msgid "Enter the decryption passphrase"
+msgstr "Entrez la phrase secrète de déchiffrement"
+
+#: ../dialog.js:145 ../dialog.js:388 ../dialog.js:697
+msgid "Passphrase too short"
+msgstr "Phrase secrète trop courte"
+
+#: ../dialog.js:164
+msgid "Decryption failed"
+msgstr "Le déchiffrement a échoué"
+
+#: ../dialog.js:198
+msgid "Encrypt"
+msgstr "Crypter"
+
+#: ../dialog.js:230 ../dialog.js:471
+msgid "Label for encrypted entry"
+msgstr "Étiquette d'entrée cryptée"
+
+#: ../dialog.js:287 ../dialog.js:566
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: ../dialog.js:314 ../dialog.js:593
+msgid "Enter and confirm the encryption passphrase"
+msgstr "Entrez et confirmez la phrase secrète de chiffrement"
+
+#: ../dialog.js:340 ../dialog.js:382 ../dialog.js:691
+msgid "Label already exists"
+msgstr "Étiquette existe déjà"
+
+#: ../dialog.js:378 ../dialog.js:679
+msgid "Specify a label for the encrypted entry"
+msgstr "Spécifiez une étiquette pour l'entrée chiffrée"
+
+#: ../dialog.js:392 ../dialog.js:701
+msgid "Passphrase mismatch"
+msgstr "Non-concordance de la phrase secrète"
+
+#: ../dialog.js:395 ../dialog.js:704
+msgid "Passphrase match"
+msgstr "Correspondance de la phrase secrète"
+
+#: ../dialog.js:447 ../dialog.js:661
+msgid "ReEncrypt"
+msgstr "Reencypt"
+
+#: ../dialog.js:492
+msgid "Original passphrase"
+msgstr "Mot de passe original"
+
+#: ../dialog.js:659
+msgid "Rename"
+msgstr "Renommer"
+
+#: ../dialog.js:796
+msgid "Password label"
+msgstr "L'étiquette de mot de passe"
+
+#: ../dialog.js:807
+msgid "Enter name for the password entry"
+msgstr "Entrez le nom de l'entrée du mot de passe"
+
+#: ../dialog.js:811
+msgid "Enter new name for the password entry"
+msgstr "Entrez un nouveau nom pour l'entrée du mot de passe"
+
+#: ../clippie.js:1111 ../clippie.js:1152 ../clippie.js:1183
+msgid "openssl not found"
+msgstr "openssl introuvable"
+
+#: ../clippie.js:1115
+msgid "will not encrypt without passphrase"
+msgstr "Ne cryptera pas sans phrase secrète"
 
 #~ msgid "Reuse the same eclipse password for the duration of the session"
 #~ msgstr "Réutiliser le même mot de passe eclipse pour la durée de la session"
