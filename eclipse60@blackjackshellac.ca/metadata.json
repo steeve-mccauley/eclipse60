@@ -4,12 +4,6 @@
   "gettext-domain": "eclipse-60-blackjackshellac",
   "uuid": "eclipse60@blackjackshellac.ca",
   "shell-version": [
-    "3.36",
-    "3.38",
-    "40",
-    "41",
-    "42",
-    "43",
     "44"
   ],
   "settings-schema": "org.gnome.shell.extensions.eclipse-60-blackjackshellac",
