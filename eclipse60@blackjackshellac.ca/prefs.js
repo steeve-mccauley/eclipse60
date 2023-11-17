@@ -16,21 +16,41 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-const { Gio, Gtk, GLib, Gdk } = imports.gi;
-const ByteArray = imports.byteArray;
+//const { Gio, Gtk, GLib, Gdk } = imports.gi;
+//const ByteArray = imports.byteArray;
+import Gio from 'gi://Gio';
+import Gtk from 'gi://Gtk';
+import GLib from 'gi://GLib';
+import Gdk from 'gi://Gdk';
 
-const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
-const _ = Gettext.gettext;
+//const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
+//const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
+//const _ = Gettext.gettext;
+import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js'
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
+//const Main = imports.ui.main;
+//import {Extension, gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
+//import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+//import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
+
+//const Me = ExtensionUtils.getCurrentExtension();
+////Before GNOME 45
+//const Me = imports.misc.extensionUtils.getCurrentExtension();
+//const MyModule = Me.imports.MyModule;
+//
+//// GNOME 45
+//import * as MyModule from './MyModule.js';
 
 const Settings = Me.imports.settings.Settings;
-const Utils = Me.imports.utils;
+//const Utils = Me.imports.utils;
 const Logger = Me.imports.logger.Logger;
 const DBusGPaste = Me.imports.dbus.DBusGPaste;
 const KeyboardShortcutDialog = Me.imports.kb_shortcuts_dialog.KeyboardShortcutDialog;
 const HMS = Me.imports.hms.HMS;
+
+//import * as Config from 'resource:///org/gnome/Shell/Extensions/js/misc/config.js';
+import * as Utils from './utils.js';
+
 
 class PreferencesBuilder {
   constructor() {
