@@ -41,16 +41,20 @@ import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/ex
 //// GNOME 45
 //import * as MyModule from './MyModule.js';
 
-const Settings = Me.imports.settings.Settings;
+//const Settings = Me.imports.settings.Settings;
 //const Utils = Me.imports.utils;
-const Logger = Me.imports.logger.Logger;
-const DBusGPaste = Me.imports.dbus.DBusGPaste;
-const KeyboardShortcutDialog = Me.imports.kb_shortcuts_dialog.KeyboardShortcutDialog;
-const HMS = Me.imports.hms.HMS;
+//const Logger = Me.imports.logger.Logger;
+//const DBusGPaste = Me.imports.dbus.DBusGPaste;
+//const KeyboardShortcutDialog = Me.imports.kb_shortcuts_dialog.KeyboardShortcutDialog;
+//const HMS = Me.imports.hms.HMS;
 
 //import * as Config from 'resource:///org/gnome/Shell/Extensions/js/misc/config.js';
+import * as Settings from './settings/Settings.js';
 import * as Utils from './utils.js';
-
+import * as Logger from './logger/Logger.js';
+import * as DBusGPaste from './dbus/DBusGPaste.js';
+import * as KeyboardShortcutDialog from './kb_shortcuts_dialog/KeyboardShortcutDialog.js';
+import * as HMS from './hms/HMS.js';
 
 class PreferencesBuilder {
   constructor() {
