@@ -26,7 +26,7 @@ import Gdk from 'gi://Gdk';
 //const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
 //const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
 //const _ = Gettext.gettext;
-import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js'
+import {ExtensionPreferences, gettext as _} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
 //const Main = imports.ui.main;
 //import {Extension, gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
@@ -40,6 +40,7 @@ import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/ex
 //
 //// GNOME 45
 //import * as MyModule from './MyModule.js';
+//import * as Config from 'resource:///org/gnome/Shell/Extensions/js/misc/config.js';
 
 //const Settings = Me.imports.settings.Settings;
 //const Utils = Me.imports.utils;
@@ -49,12 +50,12 @@ import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/ex
 //const HMS = Me.imports.hms.HMS;
 
 //import * as Config from 'resource:///org/gnome/Shell/Extensions/js/misc/config.js';
-import * as Settings from './settings/Settings.js';
+import * as Settings from './settings.js';
 import * as Utils from './utils.js';
-import * as Logger from './logger/Logger.js';
-import * as DBusGPaste from './dbus/DBusGPaste.js';
-import * as KeyboardShortcutDialog from './kb_shortcuts_dialog/KeyboardShortcutDialog.js';
-import * as HMS from './hms/HMS.js';
+import * as Logger from './logger.js';
+import * as DBusGPaste from './dbus.js';
+import * as KeyboardShortcutDialog from './kb_shortcuts_dialog.js';
+import * as HMS from './hms.js';
 
 class PreferencesBuilder {
   constructor() {
