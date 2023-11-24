@@ -16,21 +16,28 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
-const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
-const _ = Gettext.gettext;
+//const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
+//const Gettext = imports.gettext.domain('eclipse-60-blackjackshellac');
+//const _ = Gettext.gettext;
 
 String.prototype.format = imports.format.format;
 
-const { Gio, GLib} = imports.gi;
-const ByteArray = imports.byteArray;
+//const { Gio, GLib} = imports.gi;
+//const ByteArray = imports.byteArray;
+import Gio from 'gi://Gio';
+import GLib from 'gi://GLib';
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
-const FastSha256 = Me.imports.fast_sha256;
+//const ExtensionUtils = imports.misc.extensionUtils;
+//const Me = ExtensionUtils.getCurrentExtension();
+//const FastSha256 = Me.imports.fast_sha256;
+import * as FastSha256 from './fast_sha256.js';
 
 // https://gjs.guide/extensions/upgrading/gnome-shell-40.html
-const Config = imports.misc.config;
+//const Config = imports.misc.config;
+//import * as Config from 'resource:///org/gnome/shell/misc/config.js';
+import * as Config from 'resource:///org/gnome/Shell/Extensions/js/misc/config.js';
+//resource:///org/gnome/shell/misc/config.js
+
 var gnomeShellVersion = Config.PACKAGE_VERSION; // eg 3.38.4
 var [majorGSVersion, minorGSVersion, packageGSVersion ] = gnomeShellVersion.split('.', 3);
 majorGSVersion = Number.parseInt(majorGSVersion);

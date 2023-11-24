@@ -57,6 +57,22 @@ import * as DBusGPaste from './dbus.js';
 import * as KeyboardShortcutDialog from './kb_shortcuts_dialog.js';
 import * as HMS from './hms.js';
 
+//export default class ClipmanExtensionPreferences extends ExtensionPreferences
+export default class EclipseExtensionPreferences extends ExtensionPreferences {
+    fillPreferencesWindow(window) {
+        window._settings = this.getSettings();
+
+        const page = new Adw.PreferencesPage();
+
+        const group = new Adw.PreferencesGroup({
+            title: _('Group Title'),
+        });
+        page.add(group);
+
+        window.add(page);
+    }
+}
+
 class PreferencesBuilder {
   constructor() {
     this._settings = new Settings();

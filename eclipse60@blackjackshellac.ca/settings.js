@@ -16,18 +16,24 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
-const Gettext = imports.gettext.domain(GETTEXT_DOMAIN);
-const _ = Gettext.gettext;
+//const GETTEXT_DOMAIN = 'eclipse-60-blackjackshellac';
+//const Gettext = imports.gettext.domain('eclipse-60-blackjackshellac');
+//const _ = Gettext.gettext;
+//const ExtensionUtils = imports.misc.extensionUtils;
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Gio = imports.gi.Gio;
-const GioSSS = Gio.SettingsSchemaSource;
-const GLib = imports.gi.GLib;
+//const Gio = imports.gi.Gio;
+//const GioSSS = Gio.SettingsSchemaSource;
+//const GLib = imports.gi.GLib;
+import Gio from 'gi://Gio';
+//import GioSSS from 'gi://GioSSS';
+import GLib from 'gi://GLib';
 
-const Me = ExtensionUtils.getCurrentExtension();
-const Utils = Me.imports.utils;
-const Logger = Me.imports.logger.Logger;
+//const Me = ExtensionUtils.getCurrentExtension();
+//const Utils = Me.imports.utils;
+//const Logger = Me.imports.logger.Logger;
+//import * as MyModule from './MyModule.js';
+import * as Utils from './utils.js';
+import * as Logger from './logger.js';
 
 // adapted from Bluetooth-quick-connect extension by Bartosz Jaroszewski
 var Settings = class Settings {
